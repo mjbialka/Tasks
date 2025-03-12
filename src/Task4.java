@@ -1,5 +1,5 @@
 public class Task4 {
-    public static void main() {
+    public static void solveTask4() {
 
     }
 }

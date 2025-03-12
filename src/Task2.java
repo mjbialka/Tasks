@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Task2 {
-    public static void main() {
+    public static void solveTask2() {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Hej! Jak masz na imię?");
