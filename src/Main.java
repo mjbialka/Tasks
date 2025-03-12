@@ -2,7 +2,7 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Task2 task = new Task2();
-        task.main();
+
+        Task2.main();
     }
 }
