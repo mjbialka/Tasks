@@ -1,6 +1,23 @@
+import java.util.Scanner;
+
 public class Task1 {
     public static void solveTask1() {
+        Scanner sc = new Scanner(System.in);
 
+        System.out.println("Wykonajmy działania dla wpisanych liczb");
+        System.out.println();
+        System.out.println("Wpisz pierwszą liczbę: ");
+        int numberA = Integer.parseInt(sc.nextLine());
+
+        System.out.println();
+        System.out.println("Wpisz drugą liczbę: ");
+        int numberB = Integer.parseInt(sc.nextLine());
+
+        System.out.println();
+        System.out.println("Wynik dodawania: " + (numberA + numberB));
+        System.out.println("Wynik odejmowania: " + (numberA - numberB));
+        System.out.println("Wynik mnożenia: " + (numberA * numberB));
+        System.out.println("Wynik dzielenia: " + (numberA / numberB));
     }
 }
 //        Task1
