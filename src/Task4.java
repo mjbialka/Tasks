@@ -1,9 +1,9 @@
 public class Task4 {
     public static void solveTask4() {
-    String brand = "Audi";
-    String model = "A6";
-    int year = 2020;
-    int price = 220000;
+        String brand = "Audi";
+        String model = "A6";
+        int year = 2020;
+        int price = 220000;
         System.out.println("Marka: " + brand);
         System.out.println("Model: " + model);
         System.out.println("Rok: " + year);
